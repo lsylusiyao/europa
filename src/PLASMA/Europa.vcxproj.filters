@@ -1,0 +1,1143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ConstraintEngine">
+      <UniqueIdentifier>{57966482-47df-4d9f-9ec0-82bbe3b10080}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConstraintEngine\Source Files">
+      <UniqueIdentifier>{25dca57f-a8b9-4103-9241-ca34e73e251a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConstraintEngine\Header Files">
+      <UniqueIdentifier>{aea3d033-b5fa-4b98-91f4-50078e7ca804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{4117c118-aadf-4ba2-bf39-585ee0cb615b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Header Files">
+      <UniqueIdentifier>{61c100b4-c86c-4da6-959d-7c03aa8c2932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\Source Files">
+      <UniqueIdentifier>{75f48a2b-e2dc-44be-b09e-76be97da7153}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml">
+      <UniqueIdentifier>{d1a2ad6c-fe6a-47ab-81fd-b1d679d10f2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml\Header Files">
+      <UniqueIdentifier>{173bef5b-9370-489c-bc3f-230c4b3ed771}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TinyXml\Source Files">
+      <UniqueIdentifier>{862dcbab-bd85-40a9-9921-23502307592f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDDL">
+      <UniqueIdentifier>{c9ee9559-275d-4eed-bed3-01559000e558}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDDL\Header Files">
+      <UniqueIdentifier>{1d74b559-246e-4cee-b492-6f9fe4682411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDDL\Source Files">
+      <UniqueIdentifier>{6d4612dc-ebfe-4ccf-9aa6-7ff89e05b818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlanDatabase">
+      <UniqueIdentifier>{cca887f7-c29b-4008-8659-13e6c3e34a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlanDatabase\Header Files">
+      <UniqueIdentifier>{db9282ca-f4e2-4729-a8cf-96cdc503c5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PlanDatabase\Source Files">
+      <UniqueIdentifier>{6486c5cc-d00e-4763-a876-7803fd1bb245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource">
+      <UniqueIdentifier>{db48375a-a50a-4107-95cf-b7dd72528ecd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Header Files">
+      <UniqueIdentifier>{a74c8aec-7682-44e2-8f3c-671eff611edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource\Source Files">
+      <UniqueIdentifier>{67f5ddbf-f610-4f2e-b255-92129afde482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RulesEngine">
+      <UniqueIdentifier>{89274376-3aca-400f-9397-8f6fd4e16658}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RulesEngine\Header Files">
+      <UniqueIdentifier>{98f7ce24-88a1-4525-be07-ae6ab93f0ed7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RulesEngine\Source Files">
+      <UniqueIdentifier>{d2b9cd12-a862-4f74-9796-1fbbf9778bd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers">
+      <UniqueIdentifier>{3ac5acbb-21b1-4dfd-ade3-1ffd43e8a6a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers\Header Files">
+      <UniqueIdentifier>{781436c6-58e3-43a4-8248-be2bdb2c8fb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers\Source Files">
+      <UniqueIdentifier>{6b9bce6b-c215-4305-a2dc-c19b8c59a4a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System">
+      <UniqueIdentifier>{13c2ab1b-2205-4c09-b317-be7ad1ff64fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Header Files">
+      <UniqueIdentifier>{fc2bb0cf-8c70-4dc2-9459-9a11472c2c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Source Files">
+      <UniqueIdentifier>{a6811ef5-c363-4219-9b4d-e902902fcfad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="System\Swig Files">
+      <UniqueIdentifier>{2ce78df8-45cb-4179-a1e1-3fbbf8607f25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemporalNetwork">
+      <UniqueIdentifier>{bb89c036-c7da-43ec-a51d-8ec0079d3603}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemporalNetwork\Header Files">
+      <UniqueIdentifier>{ed568ab0-0494-4443-809f-3c985b4129a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TemporalNetwork\Source Files">
+      <UniqueIdentifier>{65cfaa4d-4b57-47d9-a6b2-2670f3798764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANML">
+      <UniqueIdentifier>{c8130d97-dd82-4419-a245-d45f29685626}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANML\Header Files">
+      <UniqueIdentifier>{94d39962-4141-4e09-b746-0a46a208c318}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ANML\Source Files">
+      <UniqueIdentifier>{c9f435e1-300f-401e-8b23-52cd928da175}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ConstraintEngine\base\CESchema.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\CFunction.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\ConstrainedVariable.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\Constraint.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\ConstraintEngine.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\ConstraintEngineListener.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\component\Constraints.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\ConstraintType.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\DataType.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\component\DataTypes.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\Domain.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\DomainListener.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\component\Domains.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\component\EquivalenceClassCollection.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\ModuleConstraintEngine.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\Propagator.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\component\Propagators.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\PSConstraintEngineListener.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\PSVarValue.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\base\VariableChangeListener.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\CommonDefs.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Debug.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Engine.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Entity.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Error.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\EuropaLogger.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Factory.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\IdTable.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\LabelStr.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\LoggerMgr.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Mutex.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Pdlfcn.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Utils.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\base\XMLUtils.cc">
+      <Filter>Utils\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\base\tinystr.cpp">
+      <Filter>TinyXml\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\base\tinyxml.cpp">
+      <Filter>TinyXml\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\base\tinyxmlerror.cpp">
+      <Filter>TinyXml\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TinyXml\base\tinyxmlparser.cpp">
+      <Filter>TinyXml\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\component\Interpreter.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\ModuleNddl.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NDDL3Lexer.cpp">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NDDL3Parser.cpp">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NDDL3Tree.cpp">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\component\NddlInterpreter.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NddlRules.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\component\NddlTestEngine.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NddlToken.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NddlUtils.cc">
+      <Filter>NDDL\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\CommonAncestorConstraint.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\DbClient.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\component\DbClientTransactionLog.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\component\DbClientTransactionPlayer.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\DefaultTemporalAdvisor.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\component\EventToken.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\HasAncestorConstraint.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\component\IntervalToken.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\MergeMemento.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\Method.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\component\Methods.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\ModulePlanDatabase.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\Object.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\ObjectTokenRelation.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\ObjectType.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\PDBInterpreter.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\PlanDatabase.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\PlanDatabaseListener.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\PlanDatabaseWriter.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\PSPlanDatabaseListener.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\Schema.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\StackMemento.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\component\Timeline.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\Token.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\TokenFactory.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\TokenType.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\TokenTypeMgr.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\UnifyMemento.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\ClosedWorldFVDetector.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\DurativeTokens.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Edge.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\FlowProfile.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\FVDetector.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\GenericFVDetector.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Graph.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\GroundedFVDetector.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\GroundedProfile.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\IncrementalFlowProfile.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\Instant.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\InstantTokens.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\NDDL\InterpreterResources.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\MaxFlow.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\ModuleResource.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\NDDL\NddlResource.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Node.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\OpenWorldFVDetector.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\Profile.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\ProfilePropagator.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\PSResource.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Reservoir.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\Resource.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Solvers\ResourceMatching.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Solvers\ResourceThreatDecisionPoint.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Solvers\ResourceThreatManager.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\ResourceTokenRelation.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Reusable.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\TimetableProfile.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\base\Transaction.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\Types.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\ModuleRulesEngine.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\base\ProxyVariableRelation.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\base\Rule.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\base\RuleInstance.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\base\RulesEngine.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\base\RulesEngineListener.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RulesEngine\base\RuleVariableListener.cc">
+      <Filter>RulesEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\ComponentFactory.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\Context.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\Filters.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\FlawFilter.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\FlawHandler.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\FlawManager.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\HSTSDecisionPoints.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\MatchingEngine.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\MatchingRule.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\ModuleSolvers.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\OpenConditionDecisionPoint.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\OpenConditionManager.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\PSSolversImpl.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\Solver.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\SolverDecisionPoint.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\base\SolverUtils.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\ThreatDecisionPoint.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\ThreatManager.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\UnboundVariableDecisionPoint.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\UnboundVariableManager.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Solvers\component\ValueSource.cc">
+      <Filter>Solvers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System\base\EuropaEngine.cc">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System\base\PSEngine_wrap.cc">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="System\base\PSEngineImpl.cc">
+      <Filter>System\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\base\DistanceGraph.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\ModuleTemporalNetwork.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\base\queues.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\component\STNTemporalAdvisor.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\base\TemporalNetwork.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\component\TemporalNetworkListener.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\component\TemporalPropagator.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\component\TimepointWrapper.cc">
+      <Filter>TemporalNetwork\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANML\component\AnmlInterpreter.cc">
+      <Filter>ANML\Header Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANML\base\ANMLLexer.cpp">
+      <Filter>ANML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANML\base\ANMLParser.cpp">
+      <Filter>ANML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANML\component\AnmlTestEngine.cc">
+      <Filter>ANML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ANML\ModuleAnml.cc">
+      <Filter>ANML\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ConstraintEngine\base\ConstraintTypeChecking.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ConstraintEngine\component\CFunctions.cc">
+      <Filter>ConstraintEngine\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PlanDatabase\base\DbClientListener.cc">
+      <Filter>PlanDatabase\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\FlowProfileGraph.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource\component\BoostFlowProfileGraph.cc">
+      <Filter>Resource\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ConstraintEngine\base\CESchema.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\CFunction.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\CFunctions.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\ConstrainedVariable.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\Constraint.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\ConstraintEngine.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\ConstraintEngineDefs.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\ConstraintEngineListener.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\Constraints.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\ConstraintType.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\DataType.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\DataTypes.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\Domain.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\DomainListener.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\Domains.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\EquivalenceClassCollection.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\ModuleConstraintEngine.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\Propagator.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\Propagators.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\PSConstraintEngine.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\PSConstraintEngineListener.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\PSVarValue.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\component\Variable.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\VariableChangeListener.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CommonDefs.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Debug.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\DebugMsg.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Engine.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Entity.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\EntityIterator.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Error.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\EuropaLogger.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\EuropaLoggerMacros.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Factory.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\HashPriorityQueue.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Id.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\IdTable.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\LabelStr.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Logger-log4cpp.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Logger-log4cxx.h">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Logger.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\LoggerInterface.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\LoggerMgr.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Module.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Mutex.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Number.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Pdlfcn.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\PSUtils.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\Utils.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\base\XMLUtils.hh">
+      <Filter>Utils\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\base\tinystr.h">
+      <Filter>TinyXml\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TinyXml\base\tinyxml.h">
+      <Filter>TinyXml\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\component\Interpreter.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\ModuleNddl.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\Nddl.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\NDDL3Lexer.h">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\NDDL3Parser.h">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\NDDL3Tree.h">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\NddlDefs.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\component\NddlInterpreter.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\NddlRules.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\component\NddlTestEngine.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\NddlToken.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NDDL\base\NddlUtils.hh">
+      <Filter>NDDL\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\CommonAncestorConstraint.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\Db.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\DbClient.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\DbClientListener.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\DbClientTransactionLog.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\DbClientTransactionPlayer.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\DefaultTemporalAdvisor.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\EventToken.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\HasAncestorConstraint.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\IntervalToken.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\MergeMemento.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\Method.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\Methods.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\ModulePlanDatabase.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\Object.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\ObjectTokenRelation.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\ObjectType.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\PDBInterpreter.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\PlanDatabase.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\PlanDatabaseDefs.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\PlanDatabaseListener.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\PlanDatabaseWriter.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\PSPlanDatabase.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\PSPlanDatabaseListener.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\Schema.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\StackMemento.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\TemporalAdvisor.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\component\Timeline.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\Token.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\TokenFactory.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\TokenType.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\TokenTypeMgr.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\TokenVariable.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PlanDatabase\base\UnifyMemento.hh">
+      <Filter>PlanDatabase\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\ClosedWorldFVDetector.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\DurativeTokens.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Edge.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\EdgeIterator.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\FlowProfile.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\FVDetector.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\GenericFVDetector.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Graph.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\GroundedFVDetector.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\GroundedProfile.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\IncrementalFlowProfile.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\Instant.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\InstantTokens.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\NDDL\InterpreterResources.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\MaxFlow.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ModuleResource.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\NDDL\NddlResource.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Node.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\NodeIterator.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\OpenWorldFVDetector.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\Profile.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\ProfilePropagator.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\PSResource.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Reservoir.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\Resource.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\ResourceDefs.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Solvers\ResourceMatching.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Solvers\ResourceThreatDecisionPoint.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Solvers\ResourceThreatManager.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\ResourceTokenRelation.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Reusable.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\TimetableProfile.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\base\Transaction.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\Types.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\ModuleRulesEngine.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\base\ProxyVariableRelation.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\base\Rule.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\base\RuleInstance.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\base\RulesEngine.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\RulesEngineDefs.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\base\RulesEngineListener.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RulesEngine\base\RuleVariableListener.hh">
+      <Filter>RulesEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\ComponentFactory.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\Context.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\Filters.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\FlawFilter.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\FlawHandler.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\FlawManager.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\HSTSDecisionPoints.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\MatchingEngine.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\MatchingRule.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\ModuleSolvers.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\OpenConditionDecisionPoint.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\OpenConditionManager.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\PSSolvers.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\PSSolversImpl.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\SearchListener.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\Solver.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\SolverDecisionPoint.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\SolverDefs.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\base\SolverUtils.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\ThreatDecisionPoint.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\ThreatManager.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\UnboundVariableDecisionPoint.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\UnboundVariableManager.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Solvers\component\ValueSource.hh">
+      <Filter>Solvers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\base\EuropaEngine.hh">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\base\PSEngine.hh">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\base\PSEngine_wrap.h">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="System\base\PSEngineImpl.hh">
+      <Filter>System\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\base\DistanceGraph.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\ModuleTemporalNetwork.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\component\STNTemporalAdvisor.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\base\TemporalNetwork.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\TemporalNetworkDefs.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\component\TemporalNetworkListener.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\component\TemporalPropagator.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TemporalNetwork\component\TimepointWrapper.hh">
+      <Filter>TemporalNetwork\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANML\component\AnmlInterpreter.hh">
+      <Filter>ANML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANML\base\ANMLLexer.h">
+      <Filter>ANML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANML\base\ANMLParser.h">
+      <Filter>ANML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANML\component\AnmlTestEngine.hh">
+      <Filter>ANML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANML\base\ANMLTranslator.hh">
+      <Filter>ANML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ANML\ModuleAnml.hh">
+      <Filter>ANML\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstraintEngine\base\ConstraintTypeChecking.hh">
+      <Filter>ConstraintEngine\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\FlowProfileGraph.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource\component\BoostFlowProfileGraph.hh">
+      <Filter>Resource\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="System\base\PSEngine.i">
+      <Filter>System\Swig Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

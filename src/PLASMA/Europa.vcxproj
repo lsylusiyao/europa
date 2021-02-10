@@ -1,0 +1,1019 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug-dll|Win32">
+      <Configuration>Debug-dll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-dll|x64">
+      <Configuration>Debug-dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-exe|Win32">
+      <Configuration>Debug-exe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-exe|x64">
+      <Configuration>Debug-exe</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-static|Win32">
+      <Configuration>Debug-static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug-static|x64">
+      <Configuration>Debug-static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-dll|Win32">
+      <Configuration>Release-dll</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-dll|x64">
+      <Configuration>Release-dll</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-exe|Win32">
+      <Configuration>Release-exe</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-exe|x64">
+      <Configuration>Release-exe</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-static|Win32">
+      <Configuration>Release-static</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release-static|x64">
+      <Configuration>Release-static</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{2DB15CF5-7261-4BF3-BB27-34480BE5A80C}</ProjectGuid>
+    <RootNamespace>Europa</RootNamespace>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>16.0.30804.86</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">
+    <OutDir>build\$(Platform)\lib\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">
+    <OutDir>build\$(Platform)\lib\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">
+    <OutDir>build\$(Platform)\exe\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">
+    <OutDir>build\$(Platform)\exe\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">
+    <OutDir>build\$(Platform)\lib\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">
+    <OutDir>build\$(Platform)\lib\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">
+    <OutDir>build\$(Platform)\lib\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">
+    <OutDir>build\$(Platform)\exe\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">
+    <OutDir>build\$(Platform)\exe\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">
+    <OutDir>build\$(Platform)\lib\</OutDir>
+    <IntDir>build\$(Platform)\objects\$(Configuration)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT ;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_g.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT ;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;4267;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_g.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT ;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT ;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;4267;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_g.a</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;TIXML_USE_STL;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>OldStyle</DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;4267;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_g.a</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT;TIXML_USE_STL;EUROPA_FAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3c_$(Platform).lib;log4cppLIB_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_o.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT;TIXML_USE_STL;EUROPA_FAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;4267;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3c_$(Platform).lib;log4cppLIB_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_o.dll</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT;TIXML_USE_STL;EUROPA_FAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3c_$(Platform).lib;log4cppLIB_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USRDLL;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;USE_EUROPA_DLL;DLL_EXPORT;TIXML_USE_STL;EUROPA_FAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;4267;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>antlr3c_$(Platform).lib;log4cppLIB_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)$(TargetFileName)</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <PostBuildEvent>
+      <Command>copy $(SolutionDir)$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\dll\$(Platform)\pthreadVC2.dll $(TargetDir)</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;TIXML_USE_STL;EUROPA_FAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat />
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>antlr3c_$(Platform).lib;log4cppLIB_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_o.a</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">
+    <ClCompile>
+      <Optimization>Full</Optimization>
+      <AdditionalIncludeDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\dlfcn-win32-1.2.0;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\include;$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3\include;ConstraintEngine;ConstraintEngine\base;ConstraintEngine\component;NDDL;NDDL\base;NDDL\component;ANML;ANML\base;ANML\component;PlanDatabase;PlanDatabase\base;PlanDatabase\component;Resource;Resource\base;Resource\component;Resource\component\NDDL;Resource\component\Solvers;RulesEngine;RulesEngine\base;RulesEngine\component;Solvers;Solvers\base;Solvers\component;TemporalNetwork;TemporalNetwork\base;TemporalNetwork\component;TinyXml\base;Utils;Utils\base;Utils\component;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_MBCS;_CRT_SECURE_NO_WARNINGS;_HAS_TRADITIONAL_STL;TIXML_USE_STL;EUROPA_FAST;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>false</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <TreatWChar_tAsBuiltInType>false</TreatWChar_tAsBuiltInType>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <DisableSpecificWarnings>4250;4355;4003;4002;4101;4067;5104;4267;4302;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+      <UndefinePreprocessorDefinitions>
+      </UndefinePreprocessorDefinitions>
+      <UseStandardPreprocessor>true</UseStandardPreprocessor>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <Lib>
+      <AdditionalDependencies>antlr3c_$(Platform).lib;log4cppLIB_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)System_o.a</OutputFile>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);$(PLASMA_THIRD_PARTY)\visualStudio\log4cpp-1.1.3;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="ANML\base\ANMLLexer.cpp" />
+    <ClCompile Include="ANML\base\ANMLParser.cpp" />
+    <ClCompile Include="ANML\component\AnmlInterpreter.cc" />
+    <ClCompile Include="ANML\component\AnmlTestEngine.cc" />
+    <ClCompile Include="ANML\ModuleAnml.cc" />
+    <ClCompile Include="ConstraintEngine\base\CESchema.cc" />
+    <ClCompile Include="ConstraintEngine\base\CFunction.cc" />
+    <ClCompile Include="ConstraintEngine\base\ConstrainedVariable.cc" />
+    <ClCompile Include="ConstraintEngine\base\Constraint.cc" />
+    <ClCompile Include="ConstraintEngine\base\ConstraintEngine.cc" />
+    <ClCompile Include="ConstraintEngine\base\ConstraintEngineListener.cc" />
+    <ClCompile Include="ConstraintEngine\base\ConstraintType.cc" />
+    <ClCompile Include="ConstraintEngine\base\ConstraintTypeChecking.cc" />
+    <ClCompile Include="ConstraintEngine\base\DataType.cc" />
+    <ClCompile Include="ConstraintEngine\base\Domain.cc" />
+    <ClCompile Include="ConstraintEngine\base\DomainListener.cc" />
+    <ClCompile Include="ConstraintEngine\base\Propagator.cc" />
+    <ClCompile Include="ConstraintEngine\base\PSConstraintEngineListener.cc" />
+    <ClCompile Include="ConstraintEngine\base\PSVarValue.cc" />
+    <ClCompile Include="ConstraintEngine\base\VariableChangeListener.cc" />
+    <ClCompile Include="ConstraintEngine\component\CFunctions.cc" />
+    <ClCompile Include="ConstraintEngine\component\Constraints.cc" />
+    <ClCompile Include="ConstraintEngine\component\DataTypes.cc" />
+    <ClCompile Include="ConstraintEngine\component\Domains.cc" />
+    <ClCompile Include="ConstraintEngine\component\EquivalenceClassCollection.cc" />
+    <ClCompile Include="ConstraintEngine\component\Propagators.cc" />
+    <ClCompile Include="ConstraintEngine\ModuleConstraintEngine.cc" />
+    <ClCompile Include="Main.cpp">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">System\base;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ClCompile Include="NDDL\base\NDDL3Lexer.cpp" />
+    <ClCompile Include="NDDL\base\NDDL3Parser.cpp" />
+    <ClCompile Include="NDDL\base\NDDL3Tree.cpp" />
+    <ClCompile Include="NDDL\base\NddlRules.cc" />
+    <ClCompile Include="NDDL\base\NddlToken.cc" />
+    <ClCompile Include="NDDL\base\NddlUtils.cc" />
+    <ClCompile Include="NDDL\component\Interpreter.cc" />
+    <ClCompile Include="NDDL\component\NddlInterpreter.cc" />
+    <ClCompile Include="NDDL\component\NddlTestEngine.cc" />
+    <ClCompile Include="NDDL\ModuleNddl.cc" />
+    <ClCompile Include="PlanDatabase\base\CommonAncestorConstraint.cc" />
+    <ClCompile Include="PlanDatabase\base\DbClient.cc" />
+    <ClCompile Include="PlanDatabase\base\DbClientListener.cc" />
+    <ClCompile Include="PlanDatabase\base\DefaultTemporalAdvisor.cc" />
+    <ClCompile Include="PlanDatabase\base\HasAncestorConstraint.cc" />
+    <ClCompile Include="PlanDatabase\base\MergeMemento.cc" />
+    <ClCompile Include="PlanDatabase\base\Method.cc" />
+    <ClCompile Include="PlanDatabase\base\Object.cc" />
+    <ClCompile Include="PlanDatabase\base\ObjectTokenRelation.cc" />
+    <ClCompile Include="PlanDatabase\base\ObjectType.cc" />
+    <ClCompile Include="PlanDatabase\base\PDBInterpreter.cc" />
+    <ClCompile Include="PlanDatabase\base\PlanDatabase.cc" />
+    <ClCompile Include="PlanDatabase\base\PlanDatabaseListener.cc" />
+    <ClCompile Include="PlanDatabase\base\PlanDatabaseWriter.cc" />
+    <ClCompile Include="PlanDatabase\base\PSPlanDatabaseListener.cc" />
+    <ClCompile Include="PlanDatabase\base\Schema.cc" />
+    <ClCompile Include="PlanDatabase\base\StackMemento.cc" />
+    <ClCompile Include="PlanDatabase\base\Token.cc" />
+    <ClCompile Include="PlanDatabase\base\TokenFactory.cc" />
+    <ClCompile Include="PlanDatabase\base\TokenType.cc" />
+    <ClCompile Include="PlanDatabase\base\TokenTypeMgr.cc" />
+    <ClCompile Include="PlanDatabase\base\UnifyMemento.cc" />
+    <ClCompile Include="PlanDatabase\component\DbClientTransactionLog.cc" />
+    <ClCompile Include="PlanDatabase\component\DbClientTransactionPlayer.cc" />
+    <ClCompile Include="PlanDatabase\component\EventToken.cc" />
+    <ClCompile Include="PlanDatabase\component\IntervalToken.cc" />
+    <ClCompile Include="PlanDatabase\component\Methods.cc" />
+    <ClCompile Include="PlanDatabase\component\Timeline.cc" />
+    <ClCompile Include="PlanDatabase\ModulePlanDatabase.cc" />
+    <ClCompile Include="Resource\base\FVDetector.cc" />
+    <ClCompile Include="Resource\base\Instant.cc" />
+    <ClCompile Include="Resource\base\Profile.cc" />
+    <ClCompile Include="Resource\base\ProfilePropagator.cc" />
+    <ClCompile Include="Resource\base\PSResource.cc" />
+    <ClCompile Include="Resource\base\Resource.cc" />
+    <ClCompile Include="Resource\base\ResourceTokenRelation.cc" />
+    <ClCompile Include="Resource\base\Transaction.cc" />
+    <ClCompile Include="Resource\component\BoostFlowProfileGraph.cc" />
+    <ClCompile Include="Resource\component\ClosedWorldFVDetector.cc" />
+    <ClCompile Include="Resource\component\DurativeTokens.cc" />
+    <ClCompile Include="Resource\component\Edge.cc" />
+    <ClCompile Include="Resource\component\FlowProfile.cc" />
+    <ClCompile Include="Resource\component\FlowProfileGraph.cc" />
+    <ClCompile Include="Resource\component\GenericFVDetector.cc" />
+    <ClCompile Include="Resource\component\Graph.cc" />
+    <ClCompile Include="Resource\component\GroundedFVDetector.cc" />
+    <ClCompile Include="Resource\component\GroundedProfile.cc" />
+    <ClCompile Include="Resource\component\IncrementalFlowProfile.cc" />
+    <ClCompile Include="Resource\component\InstantTokens.cc" />
+    <ClCompile Include="Resource\component\MaxFlow.cc" />
+    <ClCompile Include="Resource\component\NDDL\InterpreterResources.cc" />
+    <ClCompile Include="Resource\component\NDDL\NddlResource.cc" />
+    <ClCompile Include="Resource\component\Node.cc" />
+    <ClCompile Include="Resource\component\OpenWorldFVDetector.cc" />
+    <ClCompile Include="Resource\component\Reservoir.cc" />
+    <ClCompile Include="Resource\component\Reusable.cc" />
+    <ClCompile Include="Resource\component\Solvers\ResourceMatching.cc" />
+    <ClCompile Include="Resource\component\Solvers\ResourceThreatDecisionPoint.cc" />
+    <ClCompile Include="Resource\component\Solvers\ResourceThreatManager.cc" />
+    <ClCompile Include="Resource\component\TimetableProfile.cc" />
+    <ClCompile Include="Resource\component\Types.cc" />
+    <ClCompile Include="Resource\ModuleResource.cc" />
+    <ClCompile Include="RulesEngine\base\ProxyVariableRelation.cc" />
+    <ClCompile Include="RulesEngine\base\Rule.cc" />
+    <ClCompile Include="RulesEngine\base\RuleInstance.cc" />
+    <ClCompile Include="RulesEngine\base\RulesEngine.cc" />
+    <ClCompile Include="RulesEngine\base\RulesEngineListener.cc" />
+    <ClCompile Include="RulesEngine\base\RuleVariableListener.cc" />
+    <ClCompile Include="RulesEngine\ModuleRulesEngine.cc" />
+    <ClCompile Include="Solvers\base\ComponentFactory.cc" />
+    <ClCompile Include="Solvers\base\Context.cc" />
+    <ClCompile Include="Solvers\base\FlawFilter.cc" />
+    <ClCompile Include="Solvers\base\FlawHandler.cc" />
+    <ClCompile Include="Solvers\base\FlawManager.cc" />
+    <ClCompile Include="Solvers\base\MatchingEngine.cc" />
+    <ClCompile Include="Solvers\base\MatchingRule.cc" />
+    <ClCompile Include="Solvers\base\Solver.cc" />
+    <ClCompile Include="Solvers\base\SolverDecisionPoint.cc" />
+    <ClCompile Include="Solvers\base\SolverUtils.cc" />
+    <ClCompile Include="Solvers\component\Filters.cc" />
+    <ClCompile Include="Solvers\component\HSTSDecisionPoints.cc" />
+    <ClCompile Include="Solvers\component\OpenConditionDecisionPoint.cc" />
+    <ClCompile Include="Solvers\component\OpenConditionManager.cc" />
+    <ClCompile Include="Solvers\component\PSSolversImpl.cc" />
+    <ClCompile Include="Solvers\component\ThreatDecisionPoint.cc" />
+    <ClCompile Include="Solvers\component\ThreatManager.cc" />
+    <ClCompile Include="Solvers\component\UnboundVariableDecisionPoint.cc" />
+    <ClCompile Include="Solvers\component\UnboundVariableManager.cc" />
+    <ClCompile Include="Solvers\component\ValueSource.cc" />
+    <ClCompile Include="Solvers\ModuleSolvers.cc" />
+    <ClCompile Include="System\base\EuropaEngine.cc" />
+    <ClCompile Include="System\base\PSEngineImpl.cc" />
+    <ClCompile Include="System\base\PSEngine_wrap.cc">
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">$(JAVA_HOME)\include;$(JAVA_HOME)\include\win32;$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ClCompile Include="TemporalNetwork\base\DistanceGraph.cc" />
+    <ClCompile Include="TemporalNetwork\base\queues.cc" />
+    <ClCompile Include="TemporalNetwork\base\TemporalNetwork.cc" />
+    <ClCompile Include="TemporalNetwork\component\STNTemporalAdvisor.cc" />
+    <ClCompile Include="TemporalNetwork\component\TemporalNetworkListener.cc" />
+    <ClCompile Include="TemporalNetwork\component\TemporalPropagator.cc" />
+    <ClCompile Include="TemporalNetwork\component\TimepointWrapper.cc" />
+    <ClCompile Include="TemporalNetwork\ModuleTemporalNetwork.cc" />
+    <ClCompile Include="TinyXml\base\tinystr.cpp" />
+    <ClCompile Include="TinyXml\base\tinyxml.cpp" />
+    <ClCompile Include="TinyXml\base\tinyxmlerror.cpp" />
+    <ClCompile Include="TinyXml\base\tinyxmlparser.cpp" />
+    <ClCompile Include="Utils\base\Debug.cc" />
+    <ClCompile Include="Utils\base\Engine.cc" />
+    <ClCompile Include="Utils\base\Entity.cc" />
+    <ClCompile Include="Utils\base\Error.cc" />
+    <ClCompile Include="Utils\base\EuropaLogger.cc" />
+    <ClCompile Include="Utils\base\Factory.cc" />
+    <ClCompile Include="Utils\base\IdTable.cc" />
+    <ClCompile Include="Utils\base\LabelStr.cc" />
+    <ClCompile Include="Utils\base\LoggerMgr.cc" />
+    <ClCompile Include="Utils\base\Mutex.cc" />
+    <ClCompile Include="Utils\base\Pdlfcn.cc">
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">true</TreatWChar_tAsBuiltInType>
+      <TreatWChar_tAsBuiltInType Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">true</TreatWChar_tAsBuiltInType>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+    </ClCompile>
+    <ClCompile Include="Utils\base\Utils.cc" />
+    <ClCompile Include="Utils\base\XMLUtils.cc" />
+    <ClCompile Include="Utils\CommonDefs.cc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ANML\base\ANMLLexer.h" />
+    <ClInclude Include="ANML\base\ANMLParser.h" />
+    <ClInclude Include="ANML\base\ANMLTranslator.hh" />
+    <ClInclude Include="ANML\component\AnmlInterpreter.hh" />
+    <ClInclude Include="ANML\component\AnmlTestEngine.hh" />
+    <ClInclude Include="ANML\ModuleAnml.hh" />
+    <ClInclude Include="ConstraintEngine\base\CESchema.hh" />
+    <ClInclude Include="ConstraintEngine\base\CFunction.hh" />
+    <ClInclude Include="ConstraintEngine\base\ConstrainedVariable.hh" />
+    <ClInclude Include="ConstraintEngine\base\Constraint.hh" />
+    <ClInclude Include="ConstraintEngine\base\ConstraintEngine.hh" />
+    <ClInclude Include="ConstraintEngine\base\ConstraintEngineListener.hh" />
+    <ClInclude Include="ConstraintEngine\base\ConstraintType.hh" />
+    <ClInclude Include="ConstraintEngine\base\ConstraintTypeChecking.hh" />
+    <ClInclude Include="ConstraintEngine\base\DataType.hh" />
+    <ClInclude Include="ConstraintEngine\base\Domain.hh" />
+    <ClInclude Include="ConstraintEngine\base\DomainListener.hh" />
+    <ClInclude Include="ConstraintEngine\base\Propagator.hh" />
+    <ClInclude Include="ConstraintEngine\base\PSConstraintEngine.hh" />
+    <ClInclude Include="ConstraintEngine\base\PSConstraintEngineListener.hh" />
+    <ClInclude Include="ConstraintEngine\base\PSVarValue.hh" />
+    <ClInclude Include="ConstraintEngine\base\VariableChangeListener.hh" />
+    <ClInclude Include="ConstraintEngine\component\CFunctions.hh" />
+    <ClInclude Include="ConstraintEngine\component\Constraints.hh" />
+    <ClInclude Include="ConstraintEngine\component\DataTypes.hh" />
+    <ClInclude Include="ConstraintEngine\component\Domains.hh" />
+    <ClInclude Include="ConstraintEngine\component\EquivalenceClassCollection.hh" />
+    <ClInclude Include="ConstraintEngine\component\Propagators.hh" />
+    <ClInclude Include="ConstraintEngine\component\Variable.hh" />
+    <ClInclude Include="ConstraintEngine\ConstraintEngineDefs.hh" />
+    <ClInclude Include="ConstraintEngine\ModuleConstraintEngine.hh" />
+    <ClInclude Include="NDDL\base\Nddl.hh" />
+    <ClInclude Include="NDDL\base\NDDL3Lexer.h" />
+    <ClInclude Include="NDDL\base\NDDL3Parser.h" />
+    <ClInclude Include="NDDL\base\NDDL3Tree.h" />
+    <ClInclude Include="NDDL\base\NddlRules.hh" />
+    <ClInclude Include="NDDL\base\NddlToken.hh" />
+    <ClInclude Include="NDDL\base\NddlUtils.hh" />
+    <ClInclude Include="NDDL\component\Interpreter.hh" />
+    <ClInclude Include="NDDL\component\NddlInterpreter.hh" />
+    <ClInclude Include="NDDL\component\NddlTestEngine.hh" />
+    <ClInclude Include="NDDL\ModuleNddl.hh" />
+    <ClInclude Include="NDDL\NddlDefs.hh" />
+    <ClInclude Include="PlanDatabase\base\CommonAncestorConstraint.hh" />
+    <ClInclude Include="PlanDatabase\base\DbClient.hh" />
+    <ClInclude Include="PlanDatabase\base\DbClientListener.hh" />
+    <ClInclude Include="PlanDatabase\base\DefaultTemporalAdvisor.hh" />
+    <ClInclude Include="PlanDatabase\base\HasAncestorConstraint.hh" />
+    <ClInclude Include="PlanDatabase\base\MergeMemento.hh" />
+    <ClInclude Include="PlanDatabase\base\Method.hh" />
+    <ClInclude Include="PlanDatabase\base\Object.hh" />
+    <ClInclude Include="PlanDatabase\base\ObjectTokenRelation.hh" />
+    <ClInclude Include="PlanDatabase\base\ObjectType.hh" />
+    <ClInclude Include="PlanDatabase\base\PDBInterpreter.hh" />
+    <ClInclude Include="PlanDatabase\base\PlanDatabase.hh" />
+    <ClInclude Include="PlanDatabase\base\PlanDatabaseListener.hh" />
+    <ClInclude Include="PlanDatabase\base\PlanDatabaseWriter.hh" />
+    <ClInclude Include="PlanDatabase\base\PSPlanDatabase.hh" />
+    <ClInclude Include="PlanDatabase\base\PSPlanDatabaseListener.hh" />
+    <ClInclude Include="PlanDatabase\base\Schema.hh" />
+    <ClInclude Include="PlanDatabase\base\StackMemento.hh" />
+    <ClInclude Include="PlanDatabase\base\TemporalAdvisor.hh" />
+    <ClInclude Include="PlanDatabase\base\Token.hh" />
+    <ClInclude Include="PlanDatabase\base\TokenFactory.hh" />
+    <ClInclude Include="PlanDatabase\base\TokenType.hh" />
+    <ClInclude Include="PlanDatabase\base\TokenTypeMgr.hh" />
+    <ClInclude Include="PlanDatabase\base\TokenVariable.hh" />
+    <ClInclude Include="PlanDatabase\base\UnifyMemento.hh" />
+    <ClInclude Include="PlanDatabase\component\Db.hh" />
+    <ClInclude Include="PlanDatabase\component\DbClientTransactionLog.hh" />
+    <ClInclude Include="PlanDatabase\component\DbClientTransactionPlayer.hh" />
+    <ClInclude Include="PlanDatabase\component\EventToken.hh" />
+    <ClInclude Include="PlanDatabase\component\IntervalToken.hh" />
+    <ClInclude Include="PlanDatabase\component\Methods.hh" />
+    <ClInclude Include="PlanDatabase\component\Timeline.hh" />
+    <ClInclude Include="PlanDatabase\ModulePlanDatabase.hh" />
+    <ClInclude Include="PlanDatabase\PlanDatabaseDefs.hh" />
+    <ClInclude Include="Resource\base\FVDetector.hh" />
+    <ClInclude Include="Resource\base\Instant.hh" />
+    <ClInclude Include="Resource\base\Profile.hh" />
+    <ClInclude Include="Resource\base\ProfilePropagator.hh" />
+    <ClInclude Include="Resource\base\PSResource.hh" />
+    <ClInclude Include="Resource\base\Resource.hh" />
+    <ClInclude Include="Resource\base\ResourceTokenRelation.hh" />
+    <ClInclude Include="Resource\base\Transaction.hh" />
+    <ClInclude Include="Resource\component\BoostFlowProfileGraph.hh" />
+    <ClInclude Include="Resource\component\ClosedWorldFVDetector.hh" />
+    <ClInclude Include="Resource\component\DurativeTokens.hh" />
+    <ClInclude Include="Resource\component\Edge.hh" />
+    <ClInclude Include="Resource\component\EdgeIterator.hh" />
+    <ClInclude Include="Resource\component\FlowProfile.hh" />
+    <ClInclude Include="Resource\component\FlowProfileGraph.hh" />
+    <ClInclude Include="Resource\component\GenericFVDetector.hh" />
+    <ClInclude Include="Resource\component\Graph.hh" />
+    <ClInclude Include="Resource\component\GroundedFVDetector.hh" />
+    <ClInclude Include="Resource\component\GroundedProfile.hh" />
+    <ClInclude Include="Resource\component\IncrementalFlowProfile.hh" />
+    <ClInclude Include="Resource\component\InstantTokens.hh" />
+    <ClInclude Include="Resource\component\MaxFlow.hh" />
+    <ClInclude Include="Resource\component\NDDL\InterpreterResources.hh" />
+    <ClInclude Include="Resource\component\NDDL\NddlResource.hh" />
+    <ClInclude Include="Resource\component\Node.hh" />
+    <ClInclude Include="Resource\component\NodeIterator.hh" />
+    <ClInclude Include="Resource\component\OpenWorldFVDetector.hh" />
+    <ClInclude Include="Resource\component\Reservoir.hh" />
+    <ClInclude Include="Resource\component\Reusable.hh" />
+    <ClInclude Include="Resource\component\Solvers\ResourceMatching.hh" />
+    <ClInclude Include="Resource\component\Solvers\ResourceThreatDecisionPoint.hh" />
+    <ClInclude Include="Resource\component\Solvers\ResourceThreatManager.hh" />
+    <ClInclude Include="Resource\component\TimetableProfile.hh" />
+    <ClInclude Include="Resource\component\Types.hh" />
+    <ClInclude Include="Resource\ModuleResource.hh" />
+    <ClInclude Include="Resource\ResourceDefs.hh" />
+    <ClInclude Include="RulesEngine\base\ProxyVariableRelation.hh" />
+    <ClInclude Include="RulesEngine\base\Rule.hh" />
+    <ClInclude Include="RulesEngine\base\RuleInstance.hh" />
+    <ClInclude Include="RulesEngine\base\RulesEngine.hh" />
+    <ClInclude Include="RulesEngine\base\RulesEngineListener.hh" />
+    <ClInclude Include="RulesEngine\base\RuleVariableListener.hh" />
+    <ClInclude Include="RulesEngine\ModuleRulesEngine.hh" />
+    <ClInclude Include="RulesEngine\RulesEngineDefs.hh" />
+    <ClInclude Include="Solvers\base\ComponentFactory.hh" />
+    <ClInclude Include="Solvers\base\Context.hh" />
+    <ClInclude Include="Solvers\base\FlawFilter.hh" />
+    <ClInclude Include="Solvers\base\FlawHandler.hh" />
+    <ClInclude Include="Solvers\base\FlawManager.hh" />
+    <ClInclude Include="Solvers\base\MatchingEngine.hh" />
+    <ClInclude Include="Solvers\base\MatchingRule.hh" />
+    <ClInclude Include="Solvers\base\SearchListener.hh" />
+    <ClInclude Include="Solvers\base\Solver.hh" />
+    <ClInclude Include="Solvers\base\SolverDecisionPoint.hh" />
+    <ClInclude Include="Solvers\base\SolverUtils.hh" />
+    <ClInclude Include="Solvers\component\Filters.hh" />
+    <ClInclude Include="Solvers\component\HSTSDecisionPoints.hh" />
+    <ClInclude Include="Solvers\component\OpenConditionDecisionPoint.hh" />
+    <ClInclude Include="Solvers\component\OpenConditionManager.hh" />
+    <ClInclude Include="Solvers\component\PSSolversImpl.hh" />
+    <ClInclude Include="Solvers\component\ThreatDecisionPoint.hh" />
+    <ClInclude Include="Solvers\component\ThreatManager.hh" />
+    <ClInclude Include="Solvers\component\UnboundVariableDecisionPoint.hh" />
+    <ClInclude Include="Solvers\component\UnboundVariableManager.hh" />
+    <ClInclude Include="Solvers\component\ValueSource.hh" />
+    <ClInclude Include="Solvers\ModuleSolvers.hh" />
+    <ClInclude Include="Solvers\PSSolvers.hh" />
+    <ClInclude Include="Solvers\SolverDefs.hh" />
+    <ClInclude Include="System\base\EuropaEngine.hh" />
+    <ClInclude Include="System\base\PSEngine.hh" />
+    <ClInclude Include="System\base\PSEngineImpl.hh" />
+    <ClInclude Include="System\base\PSEngine_wrap.h" />
+    <ClInclude Include="TemporalNetwork\base\DistanceGraph.hh" />
+    <ClInclude Include="TemporalNetwork\base\TemporalNetwork.hh" />
+    <ClInclude Include="TemporalNetwork\component\STNTemporalAdvisor.hh" />
+    <ClInclude Include="TemporalNetwork\component\TemporalNetworkListener.hh" />
+    <ClInclude Include="TemporalNetwork\component\TemporalPropagator.hh" />
+    <ClInclude Include="TemporalNetwork\component\TimepointWrapper.hh" />
+    <ClInclude Include="TemporalNetwork\ModuleTemporalNetwork.hh" />
+    <ClInclude Include="TemporalNetwork\TemporalNetworkDefs.hh" />
+    <ClInclude Include="TinyXml\base\tinystr.h" />
+    <ClInclude Include="TinyXml\base\tinyxml.h" />
+    <ClInclude Include="Utils\base\Debug.hh" />
+    <ClInclude Include="Utils\base\DebugMsg.hh" />
+    <ClInclude Include="Utils\base\Engine.hh" />
+    <ClInclude Include="Utils\base\Entity.hh" />
+    <ClInclude Include="Utils\base\EntityIterator.hh" />
+    <ClInclude Include="Utils\base\Error.hh" />
+    <ClInclude Include="Utils\base\EuropaLogger.hh" />
+    <ClInclude Include="Utils\base\EuropaLoggerMacros.hh" />
+    <ClInclude Include="Utils\base\Factory.hh" />
+    <ClInclude Include="Utils\base\HashPriorityQueue.hh" />
+    <ClInclude Include="Utils\base\Id.hh" />
+    <ClInclude Include="Utils\base\IdTable.hh" />
+    <ClInclude Include="Utils\base\LabelStr.hh" />
+    <ClInclude Include="Utils\base\Logger-log4cpp.hh" />
+    <ClInclude Include="Utils\base\Logger-log4cxx.h" />
+    <ClInclude Include="Utils\base\Logger.hh" />
+    <ClInclude Include="Utils\base\LoggerInterface.hh" />
+    <ClInclude Include="Utils\base\LoggerMgr.hh" />
+    <ClInclude Include="Utils\base\Module.hh" />
+    <ClInclude Include="Utils\base\Mutex.hh" />
+    <ClInclude Include="Utils\base\Pdlfcn.hh" />
+    <ClInclude Include="Utils\base\PSUtils.hh" />
+    <ClInclude Include="Utils\base\Utils.hh" />
+    <ClInclude Include="Utils\base\XMLUtils.hh" />
+    <ClInclude Include="Utils\CommonDefs.hh" />
+    <ClInclude Include="Utils\Number.hh" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="System\base\PSEngine.i">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-dll|Win32'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-dll|x64'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-exe|Win32'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-exe|x64'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-static|Win32'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug-static|x64'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release-dll|Win32'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release-dll|x64'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release-exe|Win32'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release-exe|x64'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">Generating SWIG wrappers for PSEngine interface</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">$(PLASMA_THIRD_PARTY)\visualStudio\swigwin-4.0.2\swig.exe -java -package psengine -o $(ProjectDir)System\base\PSEngine_wrap.cc -Wall -c++ -outdir $(ProjectDir)..\Java\PSEngine\generated\psengine $(ProjectDir)System\base\PSEngine.i
+</Command>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release-static|Win32'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release-static|x64'">$(ProjectDir)System\base\PSEngine_wrap.cc;$(ProjectDir)System\base\PSEngine_wrap.h;%(Outputs)</Outputs>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+    <Import Project="packages\boost.1.72.0.0\build\boost.targets" Condition="Exists('packages\boost.1.72.0.0\build\boost.targets')" />
+  </ImportGroup>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them. For more information, please refer to http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}. </ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\boost.1.72.0.0\build\boost.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\boost.1.72.0.0\build\boost.targets'))" />
+  </Target>
+</Project>
