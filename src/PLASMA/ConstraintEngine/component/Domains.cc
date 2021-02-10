@@ -14,6 +14,7 @@
 #include <cmath>
 #include <algorithm>
 #include <iterator>
+#include <functional>
 
 
 namespace EUROPA {
@@ -979,7 +980,7 @@ void EnumeratedDomain::testPrecision(const edouble&) const {}
 namespace {
 std::list<edouble> convert(const std::list<LabelStr>& values) {
   std::list<edouble> retval;
-  std::transform(values.begin(), values.end(), std::back_inserter(retval), std::mem_fun_ref(&LabelStr::getKey));
+  std::transform(values.begin(), values.end(), std::back_inserter(retval), std::mem_fn(&LabelStr::getKey));
   return retval;
 }
 }

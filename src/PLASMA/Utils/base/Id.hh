@@ -128,7 +128,7 @@ Baz* baz = (Baz*) fooId; // Will not compile.@endverbatim
       check_error(ptr != 0,
 		  std::string("Cannot generate an Id<") + typeid(T).name() + "> for 0 pointer.",
                   IdErr::IdMgrInvalidItemPtrError());
-      m_key = IdTable::insert(reinterpret_cast<unsigned long int>(ptr),
+      m_key = IdTable::insert(reinterpret_cast<intptr_t>(ptr),
 			      typeid(T).name());
       check_error(m_key != 0, 
 		  std::string("Cannot generate an Id<") + typeid(T).name() + "> for a pointer that has not been cleaned up.",
@@ -171,18 +171,18 @@ Baz* baz = (Baz*) fooId; // Will not compile.@endverbatim
       if (val == 0)
         m_key = 0;
       else {
-        m_key = IdTable::getKey(static_cast<unsigned long int>(val));
+        m_key = IdTable::getKey(static_cast<intptr_t>(val));
         checkError(m_key != 0,
                    "Cannot instantiate an Id<" << typeid(T).name() << "> for this address: "  <<
-                   std::hex << static_cast<unsigned long int>(val) << ". No instance present.",
+                   std::hex << static_cast<intptr_t>(val) << ". No instance present.",
                    IdErr::IdMgrInvalidItemPtrError());
       }
 #endif
-      m_ptr = static_cast<T*>(static_cast<unsigned long int>(val));
+      m_ptr = static_cast<T*>(static_cast<intptr_t>(val));
     }
 
 
-			       inline Id(const unsigned long int val) : m_ptr(reinterpret_cast<T*>(val))
+			       inline Id(const intptr_t val) : m_ptr(reinterpret_cast<T*>(val))
 #ifndef EUROPA_FAST
       , m_key(0)
 #endif
@@ -331,7 +331,7 @@ inline Id(const Id<X>& org) : m_ptr(NULL)
     inline bool isValid() const {
 #ifndef EUROPA_FAST
       return(m_ptr != 0 && m_key != 0 &&
-             IdTable::getKey(reinterpret_cast<unsigned long>(m_ptr)) == m_key);
+             IdTable::getKey(reinterpret_cast<intptr_t>(m_ptr)) == m_key);
 #else
       return(m_ptr != 0);
 #endif
@@ -421,7 +421,7 @@ inline Id(const Id<X>& org) : m_ptr(NULL)
       check_error(isValid(), std::string("Cannot release an invalid Id<") + typeid(T).name() + ">.",
                   IdErr::IdMgrInvalidItemPtrError());
       m_key = 0;
-      IdTable::remove(reinterpret_cast<unsigned long int>(ptr));
+      IdTable::remove(reinterpret_cast<intptr_t>(ptr));
 #endif
       m_ptr = 0;
       delete ptr;
@@ -436,7 +436,7 @@ inline Id(const Id<X>& org) : m_ptr(NULL)
 #ifndef EUROPA_FAST
       check_error(isValid(), std::string("Cannot remove an invalid Id<") + typeid(T).name() + ">.",
                   IdErr::IdMgrInvalidItemPtrError());
-      IdTable::remove(reinterpret_cast<unsigned long int>(m_ptr));
+      IdTable::remove(reinterpret_cast<intptr_t>(m_ptr));
       m_key = 0;
 #endif
       m_ptr = 0;
@@ -454,7 +454,7 @@ inline Id(const Id<X>& org) : m_ptr(NULL)
       }
       check_error(Id<T>::convertable(org), std::string("Invalid cast from Id<") + typeid(X).name() + "> to Id<" + typeid(T).name() + ">.",
                   IdErr::IdMgrInvalidItemPtrError());
-      m_key = IdTable::getKey(reinterpret_cast<unsigned long int>(m_ptr));
+      m_key = IdTable::getKey(reinterpret_cast<intptr_t>(m_ptr));
       check_error(m_key != 0, std::string("Cannot create an Id<") + typeid(X).name() + "> for this address since no instance is present.",
                   IdErr::IdMgrInvalidItemPtrError());
 #endif
@@ -469,7 +469,7 @@ inline Id(const Id<X>& org) : m_ptr(NULL)
     /**
      * Key within the IdTable.
      */
-    unsigned long int m_key;
+    intptr_t m_key;
 #endif
   };
 

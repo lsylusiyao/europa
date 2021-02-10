@@ -63,27 +63,27 @@ unsigned long IdTable::size() {
   return(getInstance().m_collection.size());
 }
 
-  bool IdTable::allocated(unsigned long int id) {
+  bool IdTable::allocated(intptr_t id) {
     MutexGrabber mg(IdTableMutex());
     return(getInstance().m_collection.find(id) != getInstance().m_collection.end());
   }
 
-  unsigned int IdTable::getKey(unsigned long int id) {
+  unsigned int IdTable::getKey(intptr_t id) {
     MutexGrabber mg(IdTableMutex());
     debugMsg("IdTable:getKey", "Searching for key for " << std::hex << id << std::dec);
-    std::map<unsigned long int, std::pair<unsigned int,edouble> >::iterator it = getInstance().m_collection.find(id);
+    std::map<intptr_t, std::pair<unsigned int,edouble> >::iterator it = getInstance().m_collection.find(id);
     if (it != getInstance().m_collection.end())
       return getEntryKey(it->second);
     else
       return(0);
   }
 
-  unsigned int IdTable::insert(unsigned long int id, const char* baseType) {
+  unsigned int IdTable::insert(intptr_t id, const char* baseType) {
     MutexGrabber mg(IdTableMutex());
     static unsigned int sl_nextId(1);
     debugMsg("IdTable:insert", "id,key:" << std::hex << id << std::dec << ", " << sl_nextId << ")");
 
-    std::map<unsigned long int, std::pair<unsigned int,edouble> >::iterator it =
+    std::map<intptr_t, std::pair<unsigned int,edouble> >::iterator it =
       getInstance().m_collection.find(id);
 
     if (it != getInstance().m_collection.end())
@@ -100,10 +100,10 @@ unsigned long IdTable::size() {
     return(sl_nextId++);
   }
 
-  void IdTable::remove(unsigned long int id) {
+  void IdTable::remove(intptr_t id) {
     MutexGrabber mg(IdTableMutex());
     static unsigned int sl_key;
-    std::map<unsigned long int, std::pair<unsigned int,edouble> >::iterator it = getInstance().m_collection.find(id);    
+    std::map<intptr_t, std::pair<unsigned int,edouble> >::iterator it = getInstance().m_collection.find(id);    
 
     sl_key = getEntryKey(it->second);
     std::string type = getEntryType(it->second).toString();
@@ -133,7 +133,7 @@ unsigned long IdTable::size() {
     printTypeCnts(os);
     MutexGrabber mg(IdTableMutex());
     os << "Id Contents:";
-    for (std::map<unsigned long int, std::pair<unsigned int,edouble> >::iterator it = getInstance().m_collection.begin();
+    for (std::map<intptr_t, std::pair<unsigned int,edouble> >::iterator it = getInstance().m_collection.begin();
          it != getInstance().m_collection.end();
          ++it)
       os << " (" << std::hex << it->first << std::dec << ", " << getEntryKey(it->second) << "," <<

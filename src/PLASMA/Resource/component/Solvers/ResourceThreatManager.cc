@@ -10,6 +10,14 @@
 #undef ABSOLUTE
 #endif
 
+#ifdef max
+#undef max
+#endif
+
+#ifdef min
+#undef min
+#endif
+
 namespace EUROPA {
   using namespace SOLVERS;
     /**
@@ -31,7 +39,7 @@ namespace EUROPA {
 //       }
 //     };
 
-namespace {
+
 class ThreatIterator : public FlawIterator {
  public:
   ThreatIterator(ResourceThreatManager& manager) 
@@ -67,7 +75,7 @@ class ThreatIterator : public FlawIterator {
   std::vector<InstantId> m_flawedInstants;
   std::vector<InstantId>::iterator m_it;
 };
-}
+
 
     class InstantComparator {
     public:

@@ -16,7 +16,7 @@ class EntityInternals {
   eint allocateKey(const Entity* const e){
     eint retval = m_key++;
     m_entitiesByKey.insert(std::make_pair(retval, 
-                                          reinterpret_cast<unsigned long int>(e)));
+                                          reinterpret_cast<intptr_t>(e)));
     return retval;
   }
   
@@ -25,13 +25,13 @@ class EntityInternals {
   }
   EntityId getEntity(const eint key) const {
     EntityId entity;
-    std::map<eint, unsigned long int>::const_iterator it = m_entitiesByKey.find(key);
+    std::map<eint, intptr_t>::const_iterator it = m_entitiesByKey.find(key);
     if(it != m_entitiesByKey.end())
       entity = static_cast<EntityId>(it->second);
     return entity;
   }
   void getEntities(std::set<EntityId>& resultSet) const {
-    for(std::map<eint, unsigned long int>::const_iterator it = m_entitiesByKey.begin();
+    for(std::map<eint, intptr_t>::const_iterator it = m_entitiesByKey.begin();
 	it != m_entitiesByKey.end();
 	++it){
       resultSet.insert(static_cast<EntityId>(it->second));
@@ -52,7 +52,7 @@ class EntityInternals {
  private:
   EntityInternals(const EntityInternals& o);
 
-  std::map<eint, unsigned long int> m_entitiesByKey;
+  std::map<eint, intptr_t> m_entitiesByKey;
   std::set<Entity*> m_discardedEntities;
   bool m_purgeStatus;
   int m_key;

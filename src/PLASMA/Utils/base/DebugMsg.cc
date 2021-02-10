@@ -212,7 +212,7 @@ class DebugMessage::DebugInternals {
   void enableAll() {
     m_allEnabled = true;
     m_patterns.clear();
-    std::for_each(m_msgs.begin(), m_msgs.end(), std::mem_fun(&DebugMessage::enable));
+    std::for_each(m_msgs.begin(), m_msgs.end(), std::mem_fn(&DebugMessage::enable));
   }
 
   void disableAll() {
@@ -220,7 +220,7 @@ class DebugMessage::DebugInternals {
     m_patterns.clear();
     std::for_each(m_msgs.begin(),
                   m_msgs.end(),
-                  std::mem_fun(&DebugMessage::disable));
+                  std::mem_fn(&DebugMessage::disable));
   }
 
   void enableMatchingMsgs(const std::string& file,

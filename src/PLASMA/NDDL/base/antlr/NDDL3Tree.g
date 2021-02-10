@@ -104,7 +104,14 @@ nddl
 		      if (child != NULL) { 
                   boost::scoped_ptr<Expr> c(child);
 		          debugMsg("NddlInterpreter:nddl","Evaluating:" << child->toString());
-                  evalExpr(CTX,child);
+                  try {
+                    evalExpr(CTX, child);
+                  }
+                  catch (const Error& internalError) {
+                      CTX->SymbolTable->popFromCleanupStack();
+                      debugMsg("NddlInterpreter:nddl", "Error in evaluating:" << child->toString());
+                      throw internalError;
+                  }
 		          debugMsg("NddlInterpreter:nddl","Done evaluating:" << child->toString());
                   CTX->SymbolTable->popFromCleanupStack();
                   checkError(CTX->SymbolTable->cleanupStackSize() == 0,

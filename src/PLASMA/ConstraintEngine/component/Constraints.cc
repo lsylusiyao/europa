@@ -1531,7 +1531,7 @@ CountNonZeroesConstraint::CountNonZeroesConstraint(const std::string& name,
     : Constraint(name, propagatorName, constraintEngine, variables),
       m_zeroes(constraintEngine, IntervalDomain(), true, false, std::string("InternalCountNonZeroesVar"), getId()),
       m_otherVars(constraintEngine, IntervalDomain(), true, false, std::string("InternalCountNonZeroesOtherVars"), getId()),
-    m_superset(constraintEngine, IntervalDomain(edouble(variables.size() - 1)), true, false, std::string("InternalCountNonZeroesSuperset"), getId()),
+    m_superset(constraintEngine, IntervalDomain(edouble((unsigned int)variables.size() - 1)), true, false, std::string("InternalCountNonZeroesSuperset"), getId()),
     m_addEqualConstraint(std::string("AddEqual"), propagatorName, constraintEngine,
                          makeScope(m_zeroes.getId(), m_variables[0], m_otherVars.getId())),
     m_subsetConstraint(), m_countZeroesConstraint() {
@@ -1551,7 +1551,7 @@ CountNonZeroesConstraint::CountNonZeroesConstraint(const std::string& name,
                              const std::vector<ConstrainedVariableId>& variables)
     : Constraint(name, propagatorName, constraintEngine, variables),
       m_nonZeroes(constraintEngine, IntervalIntDomain(1, PLUS_INFINITY), true, false, std::string("InternalVar:Or:nonZeroes"), getId()),
-      m_superset(constraintEngine, IntervalIntDomain(1, eint(variables.size())), true, false, std::string("InternalVar:Or:superset"), getId()),
+      m_superset(constraintEngine, IntervalIntDomain(1, eint((unsigned int)variables.size())), true, false, std::string("InternalVar:Or:superset"), getId()),
                      m_subsetConstraint(), m_countNonZeroesConstraint()
   {
     m_subsetConstraint = (new SubsetOfConstraint(std::string("SubsetOf"), propagatorName, constraintEngine,

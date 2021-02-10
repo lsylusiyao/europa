@@ -45,11 +45,11 @@ namespace EUROPA {
 
     static unsigned long size();
 
-    static unsigned int insert(unsigned long int id, const char* baseType);
-    static void remove(unsigned long int id);
+    static unsigned int insert(intptr_t id, const char* baseType);
+    static void remove(intptr_t id);
 
-    static unsigned int getKey(unsigned long int id);
-    static bool allocated(unsigned long int id);
+    static unsigned int getKey(intptr_t id);
+    static bool allocated(intptr_t id);
 
     static void printTypeCnts(std::ostream& os);
     static void output(std::ostream& os);
@@ -61,7 +61,7 @@ namespace EUROPA {
     IdTable();
     static IdTable& getInstance();
     
-    std::map<unsigned long int, std::pair<unsigned int,edouble> > m_collection; /**< Map from pointers to keys */
+    std::map<intptr_t, std::pair<unsigned int,edouble> > m_collection; /**< Map from pointers to keys */
     std::map<std::string, unsigned int> m_typeCnts;
   };
 }

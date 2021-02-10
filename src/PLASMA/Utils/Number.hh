@@ -108,6 +108,19 @@ namespace std {
     static const bool tinyness_before = false;
     static const float_round_style round_style = round_toward_zero;
 
+// MSVC define min and max in its header, so we undef them
+#if _MSC_VER >= 1800
+
+#ifdef min
+#undef min
+#endif
+
+#ifdef max
+#undef max
+#endif
+
+#endif
+
     inline static EUROPA::eint min() throw();
     inline static EUROPA::eint max() throw();
     inline static EUROPA::eint epsilon() throw();

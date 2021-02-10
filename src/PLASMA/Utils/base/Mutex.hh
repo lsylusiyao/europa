@@ -1,6 +1,7 @@
 #ifndef H_EUROPA_MUTEX
 #define H_EUROPA_MUTEX
 
+#define HAVE_STRUCT_TIMESPEC
 #include <pthread.h>
 
 namespace EUROPA {

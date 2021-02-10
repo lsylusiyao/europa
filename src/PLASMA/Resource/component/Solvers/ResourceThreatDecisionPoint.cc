@@ -10,6 +10,14 @@
 
 #include <boost/cast.hpp>
 
+#ifdef max
+#undef max
+#endif
+
+#ifdef min
+#undef min
+#endif
+
 namespace EUROPA {
   using namespace SOLVERS;
 

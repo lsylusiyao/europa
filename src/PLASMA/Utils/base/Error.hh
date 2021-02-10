@@ -43,6 +43,10 @@
 
 #define ARG3(_0, _1, _2, _3, ...) _3
 #define NARG3(...) ARG3(__VA_ARGS__, 3, 2, 1, 0)
+#if _MSC_VER >= 1800
+// This is added to be compiled with VS > 2012
+#define __attribute__(X)
+#endif
 
 /**
  * @def ALWAYS_FAIL
@@ -242,6 +246,10 @@
       Error __e__(#cond, msg, type, __FILE__, __LINE__); EUROPA_ERROR(__e__); \
     }                                                                   \
   }
+#ifdef _MSC_VER >= 1700
+#define EXPAND( ... ) __VA_ARGS__
+#endif
+
 #define __check_error(N, ...) check_error ## N(__VA_ARGS__)
 #define _check_error(N, ...) __check_error(N, __VA_ARGS__)
 #define check_error(...) _check_error(NARG3(__VA_ARGS__), __VA_ARGS__)

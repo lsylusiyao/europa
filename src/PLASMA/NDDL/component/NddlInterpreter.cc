@@ -216,7 +216,7 @@ std::string NddlInterpreter::interpret(std::istream& ins, const std::string& sou
     debugMsg("NddlInterpreter:interpret", "Interpreter returned errors");
 
     // Now throw the whole thing
-    throw PSLanguageExceptionList(all);
+    // throw PSLanguageExceptionList(all);
   }
   else {
     condDebugMsg(result.tree->toStringTree(result.tree) != NULL, "NddlInterpreter:interpret",
@@ -241,13 +241,13 @@ std::string NddlInterpreter::interpret(std::istream& ins, const std::string& sou
   catch (const std::string&) {
     debugMsg("NddlInterpreter:error",
              "nddl parser halted on error:" << symbolTable.getErrors());
-    return symbolTable.getErrors();
+    checkError2(ALWAYS_FAIL, symbolTable.getErrors());
   }
   catch (const Error& internalError) {
     symbolTable.reportError(treeParser,internalError.getMsg());
     debugMsg("NddlInterpreter:error",
              "nddl parser halted on error:" << symbolTable.getErrors());
-    return symbolTable.getErrors();
+    checkError2(ALWAYS_FAIL, symbolTable.getErrors());
   }
 
   return symbolTable.getErrors();
@@ -285,7 +285,8 @@ void NddlSymbolTable::cleanStack() {
   while(!m_cleanupStack.empty()) {
     debugMsg("NddlSymbolTable:cleanStack",
              "Cleaning " << m_cleanupStack.top()->toString());
-    delete m_cleanupStack.top();
+    if (m_cleanupStack.top() != nullptr)
+        delete m_cleanupStack.top();
     m_cleanupStack.pop();
   }
 }

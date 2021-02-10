@@ -6,6 +6,9 @@
 #include <iostream>
 #include <fstream>
 #include <vector>
+#ifdef _MSC_VER
+#include <set>
+#endif
 
 #include "log4cpp/Portability.hh"
 #include "log4cpp/Category.hh"

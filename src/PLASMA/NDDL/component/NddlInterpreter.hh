@@ -72,7 +72,7 @@ private:
     debugMsg("NddlSymbolTable:pushToCleanupStack",
              "Pushed " << typeid(*expr).name() << " " << expr->toString() << " " << m_cleanupStack.size());}
   void popFromCleanupStack(size_t number = 1) {
-    checkError(m_cleanupStack.size() >= number, m_cleanupStack.size());
+    checkError2(m_cleanupStack.size() >= number, m_cleanupStack.size());
     debugMsg("NddlSymbolTable:popFromCleanupStack", "Popping " << number);
     while(number--){m_cleanupStack.pop();}
     debugMsg("NddlSymbolTable:popFromCleanupStack",

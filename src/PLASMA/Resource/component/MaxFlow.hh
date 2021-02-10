@@ -59,7 +59,7 @@ private:
    inline void resetToFront();
 
  #ifdef _MSC_VER
-   typedef map< Node*, EdgeList::const_iterator > Node2EdgeListIteratorMap;
+   typedef std::map< Node*, EdgeList::const_iterator > Node2EdgeListIteratorMap;
  #else
    typedef boost::unordered_map< Node*, EdgeList::const_iterator, NodeHash > Node2EdgeListIteratorMap;
  #endif //_MSC_VER

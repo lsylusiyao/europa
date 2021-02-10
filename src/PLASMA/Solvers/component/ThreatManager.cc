@@ -12,7 +12,7 @@
  */
 namespace EUROPA {
 namespace SOLVERS {
-namespace {
+
 class ThreatIterator : public FlawIterator {
  public:
   ThreatIterator(ThreatManager& manager)
@@ -35,7 +35,7 @@ class ThreatIterator : public FlawIterator {
   std::map<eint, std::pair<TokenId, ObjectSet> >::const_iterator m_it;
   std::map<eint, std::pair<TokenId, ObjectSet> >::const_iterator m_end;
 };
-}
+
 
 ThreatManager::ThreatManager(const TiXmlElement& configData)
     : FlawManager(configData){}

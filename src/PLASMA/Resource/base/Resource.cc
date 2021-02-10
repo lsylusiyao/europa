@@ -18,7 +18,15 @@
 #include <cmath>
 #ifdef _MSC_VER
 #  include <functional>
-   using std::select2nd;
+template<class Pair> struct select2nd : public std::function<typename Pair::second_type (Pair)>
+{
+    // functor for unary second of pair selector operator
+    const typename Pair::second_type& operator()(const Pair& Left) const
+    {
+        // apply second selector operator to pair operand
+        return (Left.second);
+    }
+};
 #elif defined __clang__
 #  include <functional>
 template<typename Pair>

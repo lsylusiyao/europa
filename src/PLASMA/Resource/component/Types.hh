@@ -25,6 +25,7 @@
 #include <map>
 #include <list>
 #include <sstream>
+#include <xhash>
 
 #include "Error.hh"
 #include "Instant.hh"
@@ -64,7 +65,7 @@ namespace EUROPA
 
 class NodeHash
 #ifdef _MSC_VER
-    : public hash_compare< Node * >
+    : public stdext::hash_compare< Node * >
 #endif //_MSC_VER
 {
  public:
@@ -79,7 +80,7 @@ class NodeHash
 
   class EdgeHash
 #ifdef _MSC_VER
-      : public hash_compare< Edge * >
+      : public stdext::hash_compare< Edge * >
 #endif //_MSC_VER
   {
    public:
@@ -95,7 +96,7 @@ class NodeHash
 
   class TransactionIdHash
 #ifdef _MSC_VER
-      : public hash_compare< TransactionId >
+      : public stdext::hash_compare< TransactionId >
 #endif //_MSC_VER
   {
    public:
@@ -111,13 +112,13 @@ class NodeHash
 
 //TODO: Do we need to keep this MSC_VER branch?
 #ifdef _MSC_VER
-  typedef map< Node*, bool > Node2Bool;
-  typedef map< Node*, eint > Node2Int;
-  typedef map< Node*, eint > Node2Long;
-  typedef map< Node*, edouble > Node2Double;
+  typedef std::map< Node*, bool > Node2Bool;
+  typedef std::map< Node*, eint > Node2Int;
+  typedef std::map< Node*, eint > Node2Long;
+  typedef std::map< Node*, edouble > Node2Double;
 
-  typedef map< Edge*, edouble > Edge2DoubleMap;
-  typedef map< TransactionId, InstantId > TransactionId2InstantId;
+  typedef std::map< Edge*, edouble > Edge2DoubleMap;
+  typedef std::map< TransactionId, InstantId > TransactionId2InstantId;
 #else
 typedef boost::unordered_map< Node*, bool, NodeHash > Node2Bool;
 typedef boost::unordered_map< Node*, eint, NodeHash > Node2Int;

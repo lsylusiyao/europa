@@ -137,7 +137,7 @@ class RotatedNaryConstraintType : public ConstraintType {
       , m_otherName(otherName)
       , m_rotateCount(rotateCount)
   {
-      checkError(name != otherName,
+      checkError2(name != otherName,
                  "Rotated name " << name << " is the same as un-rotated " << otherName);
     }
 
