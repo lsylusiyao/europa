@@ -230,7 +230,7 @@
     <Link>
       <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)System_g.dll</OutputFile>
-      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
       <TargetMachine>MachineX86</TargetMachine>
@@ -262,7 +262,7 @@
     <Link>
       <AdditionalDependencies>antlr3cd_$(Platform).lib;pthreadVC2.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <OutputFile>$(OutDir)System_g.dll</OutputFile>
-      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform)\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>$(PLASMA_THIRD_PARTY)\visualStudio\libantlr3c-3.4;$(PLASMA_THIRD_PARTY)\visualStudio\pthreads-w32-2-9-1\lib\$(Platform);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Windows</SubSystem>
     </Link>

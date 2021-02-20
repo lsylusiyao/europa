@@ -150,7 +150,7 @@
 	</target>
 	
 	<target name="init-windows">
-	    <property name="dir.msbuild" value="C:\\Windows\\Microsoft.NET\\Framework\\v3.5"/>
+	    <property name="dir.msbuild" value="C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Professional\\MSBuild\\Current\\Bin"/>
 	    <property name="msbuild.exe" value="${dir.msbuild}\\MSBuild.exe"/>
 		<property name="ant.exe" value="${env.ANT_HOME}/bin/ant.bat"/>
 		
